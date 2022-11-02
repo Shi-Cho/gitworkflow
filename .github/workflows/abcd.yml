@@ -21,7 +21,7 @@ jobs:
         uses: docker/login-action@v1
         with:
           username: csc@cs.ntust.edu.tw
-          password: dckr_pat_RvEhqPehB3XazwBtd4yK6475SVA
+          token: dckr_pat_RvEhqPehB3XazwBtd4yK6475SVA 
       - name: Build and push
         uses: docker/build-push-action@v2
         with:
